@@ -1,10 +1,10 @@
 package mundopc.modelo;
 
-public class Teclado extendes DispositivoEntrada{
+public class Teclado extends DispositivoEntrada{
 private final int idTeclado;
 private static int contadorTeclado;
 
-public Teclado(String tipoDeENtrada, String marca){
+public Teclado(String tipoDeEntrada, String marca){
     super(tipoDeEntrada, marca);
     idTeclado = ++contadorTeclado;
 }
